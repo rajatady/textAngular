@@ -197,7 +197,8 @@
   var blockElements = angular.extend({}, optionalEndTagBlockElements, makeMap("address,article," +
       "aside,blockquote,caption,center,del,dir,div,dl,figure,figcaption,footer,h1,h2,h3,h4,h5," +
       "h6,header,hgroup,hr,ins,map,menu,nav,ol,pre,script,section,table,ul,button,md-button,countdown-timer," +
-      "md-img,customisable-product-card,md-image-gallery"));
+      "md-img,customisable-product-card,md-image-gallery,md-card,md-card-content,md-subheader,md-list,md-list-item,md-icon,md-tooltip," +
+      "customisation-process"));
 
 // Inline Elements - HTML5
   var inlineElements = angular.extend({}, optionalEndTagInlineElements, makeMap("a,abbr,acronym,b," +
@@ -228,9 +229,13 @@
       'color,cols,colspan,compact,coords,dir,face,headers,height,hreflang,hspace,'+
       'id,ismap,lang,language,nohref,nowrap,rel,rev,rows,rowspan,rules,'+
       'scope,scrolling,shape,size,span,start,summary,target,title,type,'+
-      'valign,value,vspace,width,layout,layout-align,layout-padding,flex,flex-xs,flex-md,flex-sm,flex-gt-sm,' +
+      'valign,value,vspace,width,layout,layout-xs,layout-align,layout-padding,flex,flex-xs,flex-md,flex-sm,flex-gt-sm,' +
       'md-preload,ng-class,flex-lg,flex-xl,flex-gt-xs,flex-gt-md,' +
-      'ng-if,ng-click,end-date,text-to-copy,ui-sref,ng-href,slug,sku,gallery');
+      'ng-if,ng-click,end-date,text-to-copy,ui-sref,ng-href,slug,sku,gallery,' +
+      'layout-sm,layout-md,layout-lg,layout-xl,layout-gt-sm,layout-gt-md,layout-gt-lg,layout-gt-xl,' +
+      'flex-order,flex-order-xs,flex-order-sm,flex-order-md,flex-order-lg,flex-order-xl,' +
+      'flex-order-gt-xs,flex-order-gt-sm,flex-order-gt-md,flex-order-gt-lg,' +
+      'md-src,md-svg-icon');
 
 // SVG attributes (without "id" and "name" attributes)
 // https://wiki.whatwg.org/wiki/Sanitization_rules#svg_Attributes
