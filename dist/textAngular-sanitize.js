@@ -235,7 +235,7 @@
       'layout-sm,layout-md,layout-lg,layout-xl,layout-gt-sm,layout-gt-md,layout-gt-lg,layout-gt-xl,' +
       'flex-order,flex-order-xs,flex-order-sm,flex-order-md,flex-order-lg,flex-order-xl,' +
       'flex-order-gt-xs,flex-order-gt-sm,flex-order-gt-md,flex-order-gt-lg,' +
-      'md-src,md-svg-icon');
+      'md-src,md-svg-icon,md-src,key,staged-key,title-text');
 
 // SVG attributes (without "id" and "name" attributes)
 // https://wiki.whatwg.org/wiki/Sanitization_rules#svg_Attributes
